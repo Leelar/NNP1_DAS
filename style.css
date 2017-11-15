@@ -1,0 +1,85 @@
+/*
+    Add theme information for wordpress theme
+*/
+
+
+/*=========== Adding Fonts for Website =============== */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanslao.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700");
+
+
+/*=========== General CSS Style =============== */
+body {
+  font-family: 'Noto Sans Lao', Roboto, Saysettha MX, Saysettha OT, Phetsarath OT, Arial, sans-serif !important;
+}
+
+
+
+/* ======== Mobile Menu =========*/
+ .mobile-menu-cover {
+  background: #39CE6C;
+  height: 50px; }
+
+/* ============= Main Menu Bootstrap ================= */
+.mts-navbar {
+  background: #39CE6C; 
+}
+
+.vte-toggle {
+  background: #23498E;
+  display: block;
+  overflow: hidden; }
+
+.navbar-toggle:before {
+  content: "MENU";
+  right: 40px;
+  top: 5px;
+  position: absolute;
+  width: 50px;
+  font-size: 18px;
+  color: #fff; }
+
+.nav > li > a {
+  margin-bottom: 10px; }
+  .nav > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FDA724;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+.nav > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
+.nav > li > a, .dropdown-menu > li > a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500; }
+
+.nav > li > a:hover {
+    background: #1d9f49 !important;
+}
+
+/*ເມນູຊັ້ນ 2 ຂອງ Bootstrap*/
+.nav .open > a {
+    /*background: #ff0000 !important;*/
+}
+.dropdown-menu li > a {
+    /*  background: #1d9f49 !important;*/
+}
+.dropdown-menu li > a:hover {
+    /*  background: #1d9f49 !important;*/
+}
+
+/* ============= CSS for Page ================= */
+
+/* ========= Front Page ============ */
